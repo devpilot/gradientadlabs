@@ -1,0 +1,95 @@
+@import url(http://fonts.googleapis.com/css?family=Allan:700);
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {
+	display: block
+}
+.wrapper {
+	width: 100%;
+	overflow: hidden
+}
+/* Global properties ======================================================== */
+body {
+	border: 0;
+	font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #575652;
+	line-height: 22px
+}
+/* Global Structure ============================================================= */
+.main {
+	margin: 0 auto;
+	width: 940px
+}
+.body1 {
+	background: #000;
+}
+/* ============================= main layout ====================== */
+a {
+	color: #575652;
+	text-decoration: underline;
+	outline: none
+}
+a:hover {
+	text-decoration: none
+}
+h1 {
+	float: left;
+	padding: 17px 0 20px 35px
+}
+h2 {
+	font-size: 35px;
+	color: #575652;
+	font-weight: 400;
+	line-height: 1.2em;
+	letter-spacing: -1px;
+	padding-bottom: 12px
+}
+/*p {padding-bottom:22px;)*/
+strong {
+	color: #dcd9cf
+}
+/* ============================= header ====================== */
+header {
+}
+#logo {
+	display: block;
+	background: url(../images/logo.png) 0 0 no-repeat;
+	width: 120px;
+	height: 113px;
+	text-indent: -9999px
+}
+#menu {
+	float: right;
+	padding: 60px 12px 20px 0
+}
+#menu li {
+	float: left;
+	padding-left: 1px
+}
+#menu li a {
+	display: block;
+	padding: 0 30px;
+	height: 42px;
+	font-size: 18px;
+	color: #dad6cc;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 700;
+	font-family: 'Allan', cursive;
+}
+#menu li a:hover, #menu #menu_active a {
+	background: url(../images/menu_active.gif) top repeat-x;
+	color: #fff
+}
+#menu li ul {
+	display: none;
+}
+#menu li:hover ul {
+	display: block;
+	background:#000;
+	position:fixed;
+	z-index:900;
+}
+#menu li:hover li {
+	float:none;
+}
