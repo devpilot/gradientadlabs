@@ -33,13 +33,13 @@ var photos = [ {
 		"secondline" : "Web Templates"
 	}, {
 		"title" : "Sudipta Halder",
-		"image" : "food.jpg",
+		"image" : "food.png",
 		"url" : "gallery-Digitalpainting.html",
 		"firstline" : "Colour & Art",
 		"secondline" : "Digital Painting"
 	}, {
 		"title" : "Sudipta Halder",
-		"image" : "food2.jpg",
+		"image" : "food2.png",
 		"url" : "gallery-Photoshopeffect.html",
 		"firstline" : "Creativity & Imagination",
 		"secondline" : "Photoshop Effect"
